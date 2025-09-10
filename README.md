@@ -1,4 +1,5 @@
-# Student Exam Scores — Two Regression Models (Linear vs Polynomial)
+# Student Exam Scores 
+## Two Regression Models (Linear vs Polynomial)
 
 Predict student **exam scores** from simple study/attendance features.
 
@@ -10,7 +11,8 @@ This project trains **two regression models** on the same train/test split and c
 
 ## Dataset
 
-**File:** `student_exam_scores.csv` (repo root)
+**File:** `student_exam_scores.csv`
+https://www.kaggle.com/datasets/mirzayasirabdullah07/student-exam-scores-dataset
 
 Columns:
 - `student_id` *(identifier — dropped)*
