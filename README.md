@@ -42,7 +42,7 @@ python main.py
 
 - **MAE** (Mean Absolute Error): average miss in exam points. Lower is better.
 - **RMSE** (Root Mean Squared Error): like MAE but punishes large misses more. Same units (points). Lower is better.
-- **R²** how much of the ups and downs in scores the model explains. 1.0 is perfect; 0.0 means “just predict the average.”
+- **R²**: how much of the ups and downs in scores the model explains. 1.0 is perfect; 0.0 is :(
 
 ## Test Results 
 Using the current repo code:
@@ -65,13 +65,13 @@ R^2 : 0.857
 
 ## What these numbers mean
 
-LinearRegression performs better on this dataset.
+Linear Regression performs better on this dataset.
 - Lower MAE (2.316 vs 2.429)
 - Lower RMSE (2.759 vs 2.908)
 - Higher R² (0.871 vs 0.857)
 
-Pick Linear Regression for this dataset. It has lower errors and higher R² on the test set.
+Linear Regression has lower errors and higher R² on the test set.
 
-For these features, the relationship to exam_score is largely linear. 
+For these features, the relationship to `exam_score` is largely linear. 
 
 Adding curvature (degree-2 polynomial) did not help the model generalize on the test set; it added complexity without improving accuracy.
